@@ -13,5 +13,31 @@ for some better-paying jobs in the future (at least I hope so!)😊
 Anyway, I am looking forward to what this experience has in store for me and I wish good luck 
 to all my fellow participants!😉
 
+# **Task 2: Selectors**
 
+### Subtask 1:Searching for the selectors on the _Login page_
 
+1. "Scouts Panel" title
+ * //*[@id="__next"]/form/div/div[1]/h5
+ * //*[text()="Scouts Panel"]
+ * //*[contains (@class,"MuiTypography-root MuiTypography")]
+2. "Login" input field
+ * //*[@id="login"]
+ * //input[@name="login" and @aria-invalid="false"]
+ * //*[@type="text" and @id="login" and @name="login"]
+3. "Password" input field
+ * //*[@id="password"]
+ * //*[contains (@name,"password")]
+ * //*[contains (@name,"password") and contains (@id,"password")]
+4. "Remind password" hyperlink
+ * //*[@id="__next"]/form/div/div[1]/a
+ * //*[contains (@tabindex, -1)]
+ * //*[contains(@class,"MuiLink-underlineHover")]
+5. Dropdown button for the language choice
+ * //*[@id="__next"]/form/div/div[2]/div/div
+ * //*[@role="button" and @aria-haspopup="listbox"]
+ * //*[text()="English" and @role="button"]
+6. "SIGN IN" button
+ * //*[@id="__next"]/form/div/div[2]/button
+ * //button[@type="submit"]
+ * //*[text()="Sign in"]
