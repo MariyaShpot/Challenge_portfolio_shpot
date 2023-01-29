@@ -17,27 +17,27 @@ to all my fellow participants!😉
 
 ### Subtask 1:Searching for the selectors on the _Login page_
 
-1. "Scouts Panel" title
- * //*[@id="__next"]/form/div/div[1]/h5
+1. scouts_panel_title_xpath
+ * //div/div[1]/h5
  * //*[text()="Scouts Panel"]
  * //*[contains (@class,"MuiTypography-root MuiTypography")]
-2. "Login" input field
+2. login_input_field_xpath
  * //*[@id="login"]
  * //input[@name="login" and @aria-invalid="false"]
  * //*[@type="text" and @id="login" and @name="login"]
-3. "Password" input field
+3. password_input_field_xpath
  * //*[@id="password"]
  * //*[contains (@name,"password")]
  * //*[contains (@name,"password") and contains (@id,"password")]
-4. "Remind password" hyperlink
- * //*[@id="__next"]/form/div/div[1]/a
+4. remind_password_hyperlink_xpath
+ * //div/div[1]/a
  * //*[contains (@tabindex, -1)]
  * //*[contains(@class,"MuiLink-underlineHover")]
-5. Dropdown button for the language choice
- * //*[@id="__next"]/form/div/div[2]/div/div
+5. dropdown_button_language_choice_xpath
+ * //div/div[2]/div/div
  * //*[@role="button" and @aria-haspopup="listbox"]
  * //*[text()="English" and @role="button"]
-6. "SIGN IN" button
- * //*[@id="__next"]/form/div/div[2]/button
+6. sign_in_button_xpath
+ * //div/div[2]/button
  * //button[@type="submit"]
  * //*[text()="Sign in"]
