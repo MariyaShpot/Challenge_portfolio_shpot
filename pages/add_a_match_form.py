@@ -3,11 +3,11 @@ from pages.base_page import BasePage
 
 class Dashboard(BasePage):
     scouts_panel_title_xpath = "//h6[text()='Scouts Panel']"
-    main_page_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[1]/div[1]"
-    players_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[1]/div[2]"
-    x_player_name_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[2]/div[1]"
-    matches_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[2]/div[2]"
-    reports_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[2]/div[3]"
+    main_page_button_xpath = "//div/ul[1]/div[1]"
+    players_button_xpath = "//div/ul[1]/div[2]"
+    x_player_name_button_xpath = "//div/ul[2]/div[1]"
+    matches_button_xpath = "//div/ul[2]/div[2]"
+    reports_button_xpath = "//div/ul[2]/div[3]"
     my_team_input_field_xpath = "//*[@name='myTeam']"
     enemy_team_input_field_xpath = "//*[@name='enemyTeam']"
     my_team_score_input_field_xpath = "//*[@name='myTeamScore']"
@@ -23,5 +23,5 @@ class Dashboard(BasePage):
     general_input_field_xpath = "//*[@name='general']"
     rating_input_field_zpath = "//*[@name='rating']"
     submit_button_xpath = "//*[@type='submit']"
-    clear_button_xpath = "//*[@id='__next']/div[1]/main/div[2]/form/div[3]/button[2]"
+    clear_button_xpath = "//div[3]/button[2]"
 
