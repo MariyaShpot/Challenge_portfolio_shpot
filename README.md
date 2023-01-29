@@ -19,25 +19,25 @@ to all my fellow participants!😉
 
 1. scouts_panel_title_xpath
  * //div/div[1]/h5
- * //*[text()="Scouts Panel"]
- * //*[contains (@class,"MuiTypography-root MuiTypography")]
+ * //*[text()='Scouts Panel']
+ * //*[contains (@class,'MuiTypography-root MuiTypography')]
 2. login_input_field_xpath
- * //*[@id="login"]
- * //input[@name="login" and @aria-invalid="false"]
- * //*[@type="text" and @id="login" and @name="login"]
+ * //*[@id='login']
+ * //input[@name='login' and @aria-invalid='false']
+ * //*[@type='text' and @id='login' and @name='login']
 3. password_input_field_xpath
- * //*[@id="password"]
- * //*[contains (@name,"password")]
- * //*[contains (@name,"password") and contains (@id,"password")]
+ * //*[@id='password']
+ * //*[contains (@name,'password')]
+ * //*[contains (@name,'password') and contains (@id,'password')]
 4. remind_password_hyperlink_xpath
  * //div/div[1]/a
- * //*[contains (@tabindex, -1)]
- * //*[contains(@class,"MuiLink-underlineHover")]
+ * //*[text()='Remind password']
+ * //*[contains(@class,'MuiLink-underlineHover')]
 5. dropdown_button_language_choice_xpath
  * //div/div[2]/div/div
- * //*[@role="button" and @aria-haspopup="listbox"]
- * //*[text()="English" and @role="button"]
+ * //*[@role='button' and @aria-haspopup='listbox']
+ * //*[text()='English' and @role='button']
 6. sign_in_button_xpath
  * //div/div[2]/button
- * //button[@type="submit"]
- * //*[text()="Sign in"]
+ * //button[@type='submit']
+ * //*[text()='Sign in']
