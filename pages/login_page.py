@@ -8,6 +8,10 @@ class LoginPage(BasePage):
     scouts_panel_title_xpath = "//*[text()='Scouts Panel']"
     remind_password_hyperlink_xpath = "//div/div[1]/a"
     dropdown_button_xpath = "//*[text()='English' and @role='button']"
+    login_url = ('https://scouts-test.futbolkolektyw.pl/en')
+    expected_title = "Scouts panel - sign in"
+
+
 
 
 
@@ -25,3 +29,10 @@ class LoginPage(BasePage):
 
     def click_on_the_dropdown_button(self):
         self.click_on_the_element(self.dropdown_button_xpath)
+
+    def title_of_page(self):
+        assert self.get_page_title(self.login_url) == self.expected_title
+
+
+
+
