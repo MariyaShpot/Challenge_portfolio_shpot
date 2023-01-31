@@ -11,10 +11,6 @@ class LoginPage(BasePage):
     login_url = ('https://scouts-test.futbolkolektyw.pl/en')
     expected_title = "Scouts panel - sign in"
 
-
-
-
-
     def type_in_email(self, email):
         self.field_send_keys(self.login_field_xpath, email)
 
@@ -32,7 +28,3 @@ class LoginPage(BasePage):
 
     def title_of_page(self):
         assert self.get_page_title(self.login_url) == self.expected_title
-
-
-
-
